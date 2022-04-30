@@ -70,8 +70,8 @@ func RunServer()error{
 	db.AutoMigrate(&models.Like{})
 
 // uncomment these lines if u r running the code for the first time
-// 	LoadUsersData()
-// 	LoadLikesData()
+	LoadUsersData()
+	LoadLikesData()
 
 	datingRoute:=server.Group("/dating")
 	{
