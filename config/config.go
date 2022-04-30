@@ -9,5 +9,5 @@ var Database = map[string]string{
 	"PORT":     "5432",
 	"DBNAME":   "postgres",
 	"USER":     "postgres",
-	"PASSWORD": "Udayyadusonu@1",
+	"PASSWORD": "ENTER_YOUR_PASSWORD_HERE",
 }
